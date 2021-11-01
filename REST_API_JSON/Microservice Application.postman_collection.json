@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "4063c70c-ba7a-4792-9fb3-f149c6188a72",
+		"name": "Microservice Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save Department",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"departmentName\": \"IT\",\r\n    \"departmentAddress\": \"1st Cross, First Street\",\r\n     \"departmentCode\": \"IT-007\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9003/departments/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"departments",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Department API Gateway",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"departmentName\": \"IT\",\r\n    \"departmentAddress\": \"1st Cross, First Street\",\r\n     \"departmentCode\": \"IT-007\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/departments/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"departments",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDepartmentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9003/departments/depId/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9003",
+					"path": [
+						"departments",
+						"depId",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDepartmentById API Gateway",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/departments/depId/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"departments",
+						"depId",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"Yashwanth Parameswaran\",\r\n    \"emailId\": \"yashwa23@gmail.com\",\r\n    \"departmentId\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9004/users/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9004",
+					"path": [
+						"users",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save User API Gateway",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\": \"Yashwanth Parameswaran\",\r\n    \"emailId\": \"yashwa23@gmail.com\",\r\n    \"departmentId\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/users/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"users",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserWithDepartmentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9002/users/userId/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9002",
+					"path": [
+						"users",
+						"userId",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserWithDepartmentById API Gateway",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9191/users/userId/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"users",
+						"userId",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
