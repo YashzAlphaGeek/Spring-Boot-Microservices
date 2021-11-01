@@ -44,9 +44,10 @@
 
 
 Notes:
-How To Change Port of Tomcat in Eclipse : https://www.java67.com/2019/07/spring-boot-3-ways-to-change-port-of-tomcat.html
-Running of Zipkin Server in CMD : java -jar zipkin-server-2.23.4-exec.jar
 
++ How To Change Port of Tomcat in Eclipse : https://www.java67.com/2019/07/spring-boot-3-ways-to-change-port-of-tomcat.html
++ Running of Zipkin Server in CMD : java -jar zipkin-server-2.23.4-exec.jar
+![](https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/images/Zipkin_CMD.png)
 
 
 
