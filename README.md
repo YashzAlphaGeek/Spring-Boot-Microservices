@@ -42,20 +42,15 @@
 # Zipkin Server
 ![](https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/images/Zipkin_Server.png)
 
+# REST API's
+![](https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/images/Microservice_Application_REST_API_01.png)
+![](https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/images/Microservice_Application_REST_API_02.png)
+![](https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/images/Microservice_Application_REST_API_03.png)
 
-Notes:
+## API JSON Respone - https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/REST_API_JSON/Microservice%20Application.postman_collection.json
+
+## Notes:
 
 + How To Change Port of Tomcat in Eclipse : https://www.java67.com/2019/07/spring-boot-3-ways-to-change-port-of-tomcat.html
 + Running of Zipkin Server in CMD : java -jar zipkin-server-2.23.4-exec.jar
 ![](https://github.com/YashzAlphaGeek/Spring-Boot-Microservices/blob/main/images/Zipkin_CMD.png)
-
-
-
-
-
-
-
-
-
-
-
